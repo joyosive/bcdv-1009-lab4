@@ -1,4 +1,3 @@
-import React , { Component } from "react";
 import './App.css';
 import logo from './logo.svg';
 import './modules/Greeting';
@@ -9,8 +8,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>Code review and pair programming exercise</h1>
         <p>
-          <Greeting>Code review and pair programming exercise</Greeting>
+          <Greeting></Greeting>
         </p>
         <a
           className="App-link"
