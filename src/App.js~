@@ -1,6 +1,5 @@
 import React , { Component } from "react";
 import './App.css';
-import logo from './logo.svg';
 import './modules/Greeting';
 import Greeting from './modules/Greeting';
 
@@ -10,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <Greeting>Code review and pair programming exercise</Greeting>
+          <Greeting></Greeting>
         </p>
         <a
           className="App-link"
