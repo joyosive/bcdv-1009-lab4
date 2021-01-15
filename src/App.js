@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React , { Component } from "react";
 import './App.css';
 import './modules/Greeting';
 import Greeting from './modules/Greeting';
@@ -26,3 +26,4 @@ function App() {
 }
 
 export default App;
+
