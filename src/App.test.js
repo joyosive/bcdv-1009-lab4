@@ -12,3 +12,8 @@ test('renders greetings', () => {
   render(<App />);
   expect(screen.getByText(/Hello Welcome to Lab4 By Joy and Natasha/i)).toBeInTheDocument();
 });
+
+test('render h1 element', () => {
+  render(<App />);
+  expect(screen.getByText('Code review and pair programming exercise')).toBeInTheDocument();
+});
